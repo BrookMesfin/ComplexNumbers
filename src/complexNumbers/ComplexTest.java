@@ -1,4 +1,4 @@
-package complexnumbers;
+package complexNumbers;
 
 public class ComplexTest {
     
