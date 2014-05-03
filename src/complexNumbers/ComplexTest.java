@@ -17,17 +17,17 @@ public class ComplexTest {
     }
    
     public ComplexTest ComplexAddition (ComplexTest complex ) 
-    {// divides adds numbers
+    {//adds complex numbers
 		return new ComplexTest(real + complex.real, imaginary + complex.imaginary);
     }
     
     public ComplexTest ComplexSubtract (ComplexTest complex ) 
-    {// divides subtracts numbers
+    {//subtracts complex numbers
 		return new ComplexTest(real - complex.real, imaginary - complex.imaginary);
     }
     
     public ComplexTest ComplexMultiply (ComplexTest complex ) 
-    {// divides multiples numbers
+    {//multiples complex numbers
     	return new ComplexTest(real * complex.real - imaginary * complex.imaginary,
     			real*complex.imaginary + imaginary * complex.real);
     }
@@ -39,7 +39,7 @@ public class ComplexTest {
     }
     
     public String toString()
-    { //turn ComplexTest to String
+    { //turn real and imaginary to Strings
 		return String.format("(%.1f,  %.1f)", real, imaginary);
 	}
 }

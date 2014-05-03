@@ -13,12 +13,12 @@ public class ComplexNumbers {
     	
     	//outputting calculations
     	System.out.println("*-Complex numbers calculations-*");
-    	System.out.println("a = "+a);
-    	System.out.println("b = "+b);
-    	System.out.printf("a + b = %s\n", a.ComplexAddition(b));
-    	System.out.printf("a - b = %s\n", a.ComplexSubtract(b));
-    	System.out.printf("a * b = %s\n", a.ComplexMultiply(b));
-    	System.out.printf("a / b = %s\n", a.ComplexDivide(b));	
+    	System.out.println("a = "+a.toString());
+    	System.out.println("b = "+b.toString());
+    	System.out.printf("a + b = %s\n", a.ComplexAddition(b).toString());
+    	System.out.printf("a - b = %s\n", a.ComplexSubtract(b).toString());
+    	System.out.printf("a * b = %s\n", a.ComplexMultiply(b).toString());
+    	System.out.printf("a / b = %s\n", a.ComplexDivide(b).toString());	
     }
     
 }
